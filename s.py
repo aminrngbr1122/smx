@@ -2,6 +2,12 @@
 # from amin rngbr 1122 :: github.com/aminrngbr1122
 
 import os
+
+os.system('pip install subprocess')
+os.system('pip install requests')
+os.system('pip install art')
+os.system('pip install random')
+
 import subprocess
 import sys
 import requests
