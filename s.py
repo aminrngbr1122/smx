@@ -34,7 +34,7 @@ def sms():
         # =====================
         # try:
         # for i in range(2):
-        for s in range(2):
+        for s in range(3):
             try:
                 data3 = dict(phone=f"{phone}")
                 requests.post(
@@ -49,7 +49,7 @@ def sms():
                 data7 = dict(username=f'{phone}')
                 requests.post(
                     'https://next.zarinpal.com/api/oauth/initialize', data=data7)
-                for i in range(3):
+                for i in range(4):
                     url6 = "https://hiword.ir/wp-json/otp-login/v1/login"
                     number6 = {"identifier": number}
                     sms6 = requests.post(url6, data=number6)
