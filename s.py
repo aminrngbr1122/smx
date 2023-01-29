@@ -1,5 +1,5 @@
 # sms bomber script ++
-# from amin rngbr 1122 :: github.com/aminrngbr1122
+# from amin rngbr 1122 :: https://github.com/aminrngbr1122
 
 import os
 
@@ -203,7 +203,8 @@ def sms():
             # pyautogui.alert('soft war Error ! ):', 'Error !')
             # sys.exit()
         # ======================
-        print("""\n The target number was attacked and 12 SMS were sent (:""")
+        print("""\n The target number was attacked and 12 SMS were sent (: \n""")
+        sms()
 
 
 if __name__ == '__main__':
